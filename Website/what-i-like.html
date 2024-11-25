@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I Like</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-blue-300">
+    
+        <button data-popover-taget="menu" class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shawdow-md hover:shadow-lg focus:bg-slate-700 
+        focus:shadow-none active:bg-slate-700  active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow:shadow-none ml-2" type="button">  The Menu </button>
+        <ul 
+        role="menu"
+        data-popover="menu"
+        data-popover-placement="bottom"
+        class="absolute z-10 min-w-[180px] overflow-auto rounded-lg border border-slate-200 bg-white p-1.5 shadow-lg shadow-sm focus:outline-none">
+        This takes you to places
+        <li 
+        role="menuitem"
+        class="cursor-pointer text-slate-800 flex w-full text-sm items-center rounded-md p-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100">
+         <a href="index.html">Home</a>
+        </li>
+        <li
+        role="menuitem"
+        class="cursor-pointer text-slate-800 flex w-full text-sm items-center rounded-md p-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100">
+         <a href="what-i-like.html">What I Like</a>
+        </li>
+        <li 
+        role="menuitem"
+        class="cursor-pointer text-slate-800 flex w-full text-sm items-center rounded-md p-3 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100">
+         <a href="Skills-&-Hobbies.html">Skills And Hobbies</a>
+        </li>
+        
+    </ul>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+         <div class="container mx-auto max-w-9xl"> 
+            <div class="grid grid-cols-2 gap-4 p-6 bg-dark-200 rounded-lg shadow-lg"> 
+                <div class="col-span-1 aspect-video bg-dark-300 rounded-lg flex items-center justify-center"> 
+                    <img src="pic of me sideways.jpg" alt="BAKAAAAA">
+                </div> 
+                <div class="col-span-1 aspect-video bg-dark-300 rounded-lg flex items-center justify-center"> 
+                    <img src="picofcar.jpg" alt="BAKAAAAA">
+                </div>  
+                <div class="col-span-1 bg-dark-300 rounded-lg p-4">
+                         <p class="text-lg text-white"> Some things that I like to do is sleeping, making money, talking with friends, having something to do, and going places. </p> 
+                        </div> <div class="col-span-1 bg-dark-300 rounded-lg p-4"> 
+                             </div>
+                             </div> 
+                            </div> 
+</body>
+</html>
